@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1696364151 source:c:\users\1467241\downloads\jogadorc\main.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<stdbool.h>
+
+1696380731 source:c:\users\sophi\onedrive\documentos\cc2\aed2\tp02\jogadorc\main.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<stdbool.h>
+
