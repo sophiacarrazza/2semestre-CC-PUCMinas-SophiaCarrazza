@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1694110948 source:c:\users\sophi\onedrive\documentos\cc2\aed2\tp01\palindromo\main.c
+	<stdio.h>
+	<string.h>
+	<stdbool.h>
+
