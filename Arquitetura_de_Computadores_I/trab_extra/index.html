@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Conversor de Bases Numéricas - Arquitetura de Computadores</title>
+</head>
+
+<body>
+  <header>
+    <div class="titulo">
+      <h1>Conversor De Bases</h1>
+      <p>Trabalho Extra - Arquitetura de Computadores</p>
+    </div>
+
+    <div>
+      
+      <div class="pessoas">
+      <div class="pessoa">
+      <img src="imgs/sophia.jpg" alt="" style="width: 80px; border-radius: 20px;">
+        <p>Sophia<br> Carrazza</p>
+    </div>
+    <div class="pessoa">
+        <img src="imgs/livia.jpg" alt="" style="width: 80px; border-radius: 20px;">
+        <p>Lívia<br> Câmara</p>
+    </div>
+</div>
+    </div>
+  </header>
+
+  <main>
+    <div>
+      <h3 id="erro" style="color: red; font-family: Arial; padding-bottom: 20px; padding-top: 0px;" </h3>
+    </div>
+
+    <form action="">
+      <div>
+        <label for="num">Número: </label>
+        <input type="text" name="num" id="num" autocomplete="off">
+      </div>
+      <div>
+        <label for="baseAtual">Base atual: </label>
+        <select name="baseAtual" id="baseAtual">
+        </select>
+      </div>
+      <div>
+        <label for="baseFutura">Base final: </label>
+        <select name="baseFutura" id="baseFutura">
+        </select>
+      </div>
+      <div>
+        <p style="font-weight: bold;">Resultado:</p>
+        <p class="result" id="result"></p>
+      </div>
+      <div class="divBtnConvert">
+        <button class="btnConvert" id="btnConvert">Converter</button>
+      </div>
+    </form>
+  </main>
+  <script src="script.js"></script>
+
+  <script>
+    var select = document.getElementById("baseAtual");
+    var select2 = document.getElementById("baseFutura");
+
+    // cria os botoes de 0 ate 36
+    for (var i = 0; i <= 36; i++) {
+    //botao de base atual
+      var option1 = document.createElement("option");
+      option1.value = i;
+      option1.text = i;
+      
+    //botao de base final
+      var option2 = document.createElement("option");
+      option2.value = i;
+      option2.text = i;
+
+
+      select.add(option1);
+      select2.add(option2);
+    }
+  </script>
+</body>
+
+</html>

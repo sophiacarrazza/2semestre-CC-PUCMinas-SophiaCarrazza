@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fcd9dc;
+    min-height: 15vh;
+    flex-wrap: wrap;
+}
+
+header div{
+    padding: 10px;
+
+}
+header div p{
+    font-weight:bold ;
+    margin: 5px;
+}
+.titulo{
+    font-size: 30px;
+    color: #b4184c;
+    margin: 5px;
+    padding-left: 30px;
+}	
+.pessoas{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    padding-left: 30px;
+    margin-right: 20px;
+}
+
+.pessoa p{
+    font-weight: bold;
+    /*centralizar texto*/
+    text-align: center;
+    color: #b4184c;
+}
+form {
+    width: 50%;
+    font-size: 1.8em;
+    margin-top: 3rem;
+}	
+form input, form select {
+    padding: 15px; 
+    font-size: 1.2em;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 45vh;
+}
+
+main div{
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main input{
+    margin-left: 10px;
+    color: #055879;
+    border: 2px solid #0378A6;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+select{
+    margin-left: 10px;
+    color: #055879;
+    border: 2px solid #0378A6;
+    border-radius: 5px;
+}	
+.btnConvert{
+    padding: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #98d1e7;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #055879;
+    /*centralizar botao na tela*/
+    margin-left: auto;
+    margin-right: auto;
+    /*aumentar tamanho do botao*/
+    width: 70%;
+
+ 
+}
+.btnConvert:hover{
+    background-color: #95e1ff;
+}
+
+.divBtnConvert{
+    margin-top: 10px;
+    justify-content: right;
+
+}
+
+.result{
+    border: 2px solid #0378A6;
+    border-radius: 5px;
+    padding: 1px;
+    min-width: 20px;
+    text-align: center;
+    padding: 10px;
+}
