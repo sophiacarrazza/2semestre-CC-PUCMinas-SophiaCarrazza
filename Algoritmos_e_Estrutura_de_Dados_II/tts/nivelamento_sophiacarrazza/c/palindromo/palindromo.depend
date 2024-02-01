@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1690903440 source:e:\2 semestre cc\ae\palindromo\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1691534644 source:e:\2 semestre cc\aeds2\palindromo\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+

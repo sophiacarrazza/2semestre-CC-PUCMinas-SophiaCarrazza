@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1691110770 source:e:\2 semestre cc\aeds2\nivelamento\niv1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+

@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1691026536 source:e:\2 semestre cc\aeds2\palindromoremake\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+	<conio.h>
+
