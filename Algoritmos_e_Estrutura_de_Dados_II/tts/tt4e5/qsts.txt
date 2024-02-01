@@ -1,0 +1,10 @@
+Questões teóricas da Sessão de Lista Linear
+q1- O nove não foi removido, mas não faz parte mais do array logicamente, logo, fca na memória como lixo.
+
+q2- Um valor é removido logicamente quando ele é inativo (não mais considerado como parte do analisado) de forma lógica, mas não eliminado fisicamente da estrutura de dados. Enquanto isso, na remoção física, há uma remoção permanente que libera o espaço de memoria na estrutura.
+
+q3- A formatação lógica rápida cria uma estrutura nova sem verificar os setores fisicos em busca de erros, o que não garante a remoção dos dados antigos (lixo). Já a formatação física, realiza o preparo dos setores de armazenamento e os "conserta" para funcionar o novo sistema de arquivos, o que é mais demorado mas mais seguro.
+
+q4- Quando um arquivo é inserido na lixeira, não é excluido permanentemente, mas sim funciona como uma pasta temporária para os arquivos que são excluidos, mas ainda ocupa espaço no disco. Enquanto isso, quando um arquivo é deletado permanentemente, o SO marca os espaços alocados pelo arquivo como disponíveis novamente para reuso. Ou seja, os dados não são apagados completamente no disco, mas são considerados vazios e prontos para serem sobrescritos com novos dados.
+
+q5- Será mostrado na tela: "[3 7 1 ]"

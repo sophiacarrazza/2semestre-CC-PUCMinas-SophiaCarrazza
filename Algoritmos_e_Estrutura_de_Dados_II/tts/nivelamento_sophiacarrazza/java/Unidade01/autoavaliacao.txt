@@ -1,0 +1,9 @@
+O programa foi feito corretamente e testado de acordo com os tutoriais dos pdfs de Aeds2.
+
+O arquivo .java com a classe se encontra dentro das pastas criadas automaticamente pelo Eclipse, que estão integradas no github. Pushs no git do Eclipse foram feitos para efetuar os commits no repositório.
+
+Visto isso, considero a nota de minha autoavaliação como total, 5 pontos.
+
+https://github.com/sophiacarrazza/SomadedoisNumeros
+
+-Sophia Carrazza Ventorim de Sousa
