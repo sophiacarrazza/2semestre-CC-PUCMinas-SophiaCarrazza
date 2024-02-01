@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1699055312 source:c:\users\sophi\onedrive\documentos\cc2\aed2\tp03q02\main.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<stdbool.h>
+	<time.h>
+
+1699613792 source:c:\users\sophi\onedrive\documentos\cc2\aed2\tp03\tp03q02\main.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<stdbool.h>
+	<time.h>
+
