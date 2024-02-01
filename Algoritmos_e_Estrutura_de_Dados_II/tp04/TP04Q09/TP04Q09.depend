@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1701965570 source:c:\users\sophi\onedrive\documentos\cc2\aed2\tp04\tp04q09\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+
